@@ -1,4 +1,23 @@
 html {
-  background-color: #70ad55;
   font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #70ad55;
+}
+
+h1 {
+  color: #fff;
+}
+
+.headerp {
+  color: #fff;
+}
+
+footer {
+  background-color: #70ad55;
+}
+
+input {
+  border-color: #6e8c62;
 }
