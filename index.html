@@ -34,7 +34,7 @@
       </div>
       <div>
         <label for="size">T-shirt size</label>
-        <select id="size" name="size" required>
+        <select id="size" name="size">
           <option>Select a t-shirt size</option>
           <option>Fitted: XS</option>
           <option>Fitted: S</option>
@@ -70,7 +70,7 @@
       </div>
       <div>
         <label for="province">Province</label>
-        <select id="province" name="province" required>
+        <select id="province" name="province">
           <option>Select a province</option>
           <option>Alberta</option>
           <option>British Columbia</option>
@@ -98,7 +98,7 @@
       <div>
         <form>
           <div>
-            <input id=digging-holes type="checkbox">
+            <input id="digging-holes" type="checkbox">
             <label for="digging-holes">Digging holes</label>
           </div>
           <div>
@@ -138,7 +138,7 @@
       <div>
         <form>
           <div>
-            <input id=shovels type="checkbox">
+            <input id="shovels" type="checkbox">
             <label for="shovels">Shovels</label>
           </div>
           <div>
@@ -176,42 +176,43 @@
           <div>
             <input id="groups" type="checkbox">
             <label for="groups">Speaking to groups</label>
-            </div>
-          </form>
-        </div>
-      </fieldset>
-      <fieldset>
+          </div>
+        </form>
+      </div>
+    </fieldset>
+    <fieldset>
       <legend>Do you have a valid driver’s license?</legend>
-        <div>
-          <input id="yes" type="radio" name="license">
-          <label for="yes">Yes</label>
-          <input id="no" type="radio" name="license">
-          <label for="no">No</label>
-        </div>
-      </fieldset>
+      <div>
+        <input id="yes" type="radio" name="license">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="license">
+        <label for="no">No</label>
+      </div>
+    </fieldset>
+    <fieldset>
       <legend>Do you have a pick-up truck you’d be willing to use?</legend>
-        <div>
-          <input id="yes-truck" type="radio" name="pick-up">
-          <label for="yes-truck">Yes</label>
-          <input id="no-truck" type="radio" name="pick-up">
-          <label for="no-truck">No</label>
-        </div>
-      </fieldset>
+      <div>
+        <input id="yes-truck" type="radio" name="pick-up">
+        <label for="yes-truck">Yes</label>
+        <input id="no-truck" type="radio" name="pick-up">
+        <label for="no-truck">No</label>
+      </div>
+    </fieldset>
+    <fieldset>
       <legend>Do you have up-to-date first-aid certification?</legend>
-        <div>
-          <input id="yes-first-aid" type="radio" name="certification">
-          <label for="yes-first-aid">Yes</label>
-          <input id="no-first-aid" type="radio" name="certification">
-          <label for="no-first-aid">No</label>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend>Please let us know any comments or questions you may have. <i>(optional)</i></legend>
-        <textarea id="text-box" name="text-box"></textarea>
-      </fieldset>
+      <div>
+        <input id="yes-first-aid" type="radio" name="certification">
+        <label for="yes-first-aid">Yes</label>
+        <input id="no-first-aid" type="radio" name="certification">
+        <label for="no-first-aid">No</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Please let us know any comments or questions you may have. <i>(optional)</i></legend>
+      <textarea id="text-box" name="text-box"</textarea>
     </fieldset>
     <div class="text-center">
-      <button class="btn" type="apply">Apply</button>
+      <button class="btn" type="submit">Apply</button>
     </div>
   </div>
   <footer>© Tree Hugger International Organization</footer>
