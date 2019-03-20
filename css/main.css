@@ -21,3 +21,35 @@ footer {
 input {
   border-color: #6e8c62;
 }
+
+fieldset {
+  border: 0;
+}
+
+i {
+  color: #70ad55;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+.postal-code {
+  border-bottom: solid 1px;
+  border-color: #70ad55;
+}
+
+.phone-number {
+  border-bottom: solid 1px;
+  border-color: #70ad55;
+}
+
+.groups {
+  border-bottom: solid 1px;
+  border-color: #70ad55;
+}
+
+.certification {
+  border-bottom: solid 1px;
+  border-color: #70ad55;
+}
