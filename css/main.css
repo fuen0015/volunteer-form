@@ -16,6 +16,7 @@ h1 {
 
 footer {
   background-color: #70ad55;
+  color: #fff;
 }
 
 input {
@@ -34,22 +35,24 @@ select {
   border-color: #6e8c62;
 }
 
-.postal-code {
-  border-bottom: solid 1px;
+hr {
   border-color: #70ad55;
 }
 
-.phone-number {
-  border-bottom: solid 1px;
-  border-color: #70ad55;
+.pad-r {
+  padding-right: 10px;
 }
 
-.groups {
-  border-bottom: solid 1px;
-  border-color: #70ad55;
+.pad-l {
+  padding-left: 10px;
 }
 
-.certification {
-  border-bottom: solid 1px;
-  border-color: #70ad55;
+[type="checkbox"] + label::before,
+[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+button {
+  border-color: #6e8c62;
+  background-color: #6e8c62;
 }
